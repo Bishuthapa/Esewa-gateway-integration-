@@ -1,5 +1,4 @@
-
-
+"use client"
 import { useState } from "react";
 import Image from "next/image";
 
@@ -74,7 +73,8 @@ catch(err: any){
 return(
     <>
     <div>
-        <p>Hello</p>
+        
+        
 
     </div>
     </>
