@@ -1,6 +1,6 @@
 "use client"
 import { useState } from "react";
-import Image from "next/image";
+
 
 
 export default function EsewaPayment() {
@@ -72,10 +72,8 @@ catch(err: any){
 
 return(
     <>
-    <div>
-        
-        
-
+    <div className="bg-gray-900">
+        <p className="text-white text-2xl font-bold">Payment Form</p>
     </div>
     </>
 )
